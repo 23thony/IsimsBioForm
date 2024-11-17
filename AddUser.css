@@ -1,0 +1,139 @@
+﻿body {
+    background-color:#ECEFF4;
+}
+
+table{
+    width:100%;
+}
+
+/*Personal Data Styling*/
+    /*Table Styling*/
+        #User_Profile_Photo {
+            width: 205px;
+/*            border-style: solid;
+            border-width: 1px;
+            border-color: blue;*/
+        }
+        #User_Profile_Data, #address_Details {
+/*            border-style: solid;
+            border-width: 1px;
+            border-color: red;*/
+            margin-left: 50px;
+            height: 188px;
+        }
+/*        #user_Contact_Details{
+            border-style:solid;
+            border-width:1px;
+            border-color:green;
+        }*/
+        #tbl_User_Profile_Photo {
+            display:inline-block;
+        }
+        #tbl_User_Profile_Data{
+            display:inline-block;
+        }
+#btn_Photo_Upload{
+    align-items: flex-start;
+    appearance: auto;
+    color: white;
+    background-color: #00ACD6;
+    border: 1px solid #269ABC;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 0px 0px 120px;
+    overflow: clip;
+    padding: 6px 12px;
+    user-select: none;
+    vertical-align: middle;
+}
+
+#btn_Save_Personal_Data{
+    margin-left:120px;
+}
+.td_Lower_Texts {
+    display: table-cell;
+    padding: 1px;
+    vertical-align: top;
+}
+
+/*Navigation Styling*/
+#navigation {
+    width:100%;
+    background-color:#D0D0D0;
+    width:30px;
+    margin-bottom:15px;
+}
+/*Navigation Styling Ends*/
+
+/*Contact Details Styling*/
+.h5_Heading {
+    box-sizing: border-box;
+    color: #444444;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    border-top:solid;
+    border-width:1px;
+}
+
+td {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#tbl_User_Contact_Details {
+    margin-bottom: 10px;
+}
+
+#btn_Save_Contact_Details {
+    align-items: flex-start;
+    appearance: auto;
+    color: white;
+    background-color: #00ACD6;
+    border: 1px solid #269ABC;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 0px 0px 120px;
+    overflow: clip;
+    padding: 6px 12px;
+    user-select: none;
+    vertical-align: middle;
+    float: right;
+}
+
+/*Address Details*/
+#address_Details.auto-style9 {
+    border-spacing: 2px 2px;
+    box-sizing: border-box;
+    display: table;
+    margin: 0px 0px 0px 0px;
+}
+
+#selMarital{
+    vertical-align:top;
+}
+
+#btn_Save_Address_Details {
+    align-items: flex-start;
+    appearance: auto;
+    color: white;
+    background-color: #00ACD6;
+    border: 1px solid #269ABC;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 0px 0px 120px;
+    overflow: clip;
+    padding: 6px 12px;
+    user-select: none;
+    vertical-align: middle;
+    float: right;
+}
